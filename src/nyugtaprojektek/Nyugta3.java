@@ -17,7 +17,7 @@ public class Nyugta3 {
         System.out.printf("%10s:%5d%s\n","Tétel 2", tetel2, HUF);
         System.out.printf("%10s:%5d%s\n","Tétel 3", tetel3, HUF);
         System.out.println(duplaVonal);
-        System.out.printf("%10s:%5d%s\n", "Összesen", osszesen, HUF);
+        System.out.printf("%10s:%5d%s\n","Összesen", osszesen, HUF);
         System.out.println(szaggatottVonal);
         
         int szervizDijMertek = 10;
@@ -28,7 +28,7 @@ public class Nyugta3 {
         System.out.printf("%10s:%5d%s\n","Szervízdíj", szervizDij, HUF);
         System.out.printf("(%d%%)\n", szervizDijMertek);       
         System.out.println(duplaVonal);
-        System.out.printf("%10s:%d%s\n","Fizetendő", fizetendo, HUF);       
+        System.out.printf("%10s:%6d%s\n","Fizetendő", fizetendo, HUF);       
         System.out.printf("%10s%7.2f%s\n","", euro,eur);//      
         System.out.printf("%s\n\n",szaggatottVonal);                       
         System.out.print(rovidVonal);
